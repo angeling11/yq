@@ -39,8 +39,8 @@ jobs:
 
       - name: Cross compile
         run: |
-          sudo apt-get update
-          sudo apt-get install rhash cgi cryptography idna rexml -y
+          sudo apt-get install rhash -y
+          gem install rexml -v '>= 3.3.3'
           go install github.com/goreleaser/goreleaser/v2@latest
           ./scripts/xcompile.sh
 
