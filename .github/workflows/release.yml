@@ -40,7 +40,7 @@ jobs:
       - name: Cross compile
         run: |
           sudo apt-get install rhash -y
-          sudo gem install rexml -v '>= 3.3.3'
+          sudo gem install rexml -v 3.3.3
           go install github.com/goreleaser/goreleaser/v2@latest
           ./scripts/xcompile.sh
 

@@ -8,7 +8,7 @@ require (
 	github.com/elliotchance/orderedmap v1.7.1
 	github.com/fatih/color v1.18.0
 	github.com/goccy/go-json v0.10.4
-	github.com/goccy/go-yaml v1.13.3
+	github.com/goccy/go-yaml v1.12.0
 	github.com/jinzhu/copier v0.4.0
 	github.com/magiconair/properties v1.8.9
 	github.com/pelletier/go-toml/v2 v2.2.3
@@ -16,8 +16,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/yuin/gopher-lua v1.1.1
-	golang.org/x/net v0.33.0
-	golang.org/x/text v0.21.0
+	golang.org/x/text v0.3.8
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473
 	gopkg.in/yaml.v3 v3.0.1
 )
