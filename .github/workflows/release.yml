@@ -41,7 +41,7 @@ jobs:
         run: |
           sudo apt-get install rhash -y
           sudo gem install rexml -v 3.3.3
-          pip install cryptography==41.0.6
+          pip install cryptography==41.0.6 cgi==0.3.4
           go install github.com/goreleaser/goreleaser/v2@latest
           ./scripts/xcompile.sh
 
